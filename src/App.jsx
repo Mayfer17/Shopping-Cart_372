@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { products, coupons } from './data';
-import { FaShoppingCart } from 'react-icons/fa'; // นำเข้าไอคอนตะกร้า
-import './app.css';
+import { FaShoppingCart } from 'react-icons/fa'; 
+import './App.css';
 
 export default function App() {
   const [cart, setCart] = useState([]);
