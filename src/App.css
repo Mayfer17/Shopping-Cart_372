@@ -1,0 +1,82 @@
+
+/* ตกแต่งคอนเทนต์สำหรับเว็บไซต์ช้อปปิ้ง โทนสีมินิมอล โทนอุ่น */
+.shopping-container {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FAF3E0; /* พื้นหลังสีโทนอุ่น */
+  color: #5C4033; /* สีข้อความโทนอุ่นเข้ม */
+}
+
+h1, h2 {
+  color: #8B5E3C; /* สีน้ำตาลอ่อน */
+  text-align: center;
+}
+
+.product-list, .cart-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-item, .cart-item {
+  border: 1px solid #E0C1A5; /* เส้นขอบสีอ่อน */
+  margin-bottom: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  background-color: #FFF8F0; /* พื้นหลังสินค้าและตะกร้าโทนสีอุ่น */
+  border-radius: 8px; /* มุมมน */
+}
+
+.product-item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 50%; /* ทำให้รูปเป็นวงกลม */
+  border: 2px solid #E0C1A5; /* ขอบรูป */
+}
+
+button {
+  background-color: #D49A6A; /* ปุ่มสีโทนอุ่น */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-left: auto;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #B57644; /* ปุ่มเมื่อ hover */
+}
+
+.cart-item {
+  justify-content: space-between; /* เว้นระยะระหว่างสินค้ากับปุ่ม */
+}
+
+.shopping-container ul {
+  padding-left: 0; /* ลบขอบ list */
+}
+
+.cart-list {
+  margin-top: 20px;
+}
+
+.cart-item button {
+  background-color: #e23838; 
+}
+
+.cart-item button:hover {
+  background-color: #E05D5D; 
+}
+.title {
+  font-family: 'Arial', sans-serif; 
+  color: brown; 
+  font-size: 2rem; 
+  font-weight: bold; 
+  margin-bottom: 1rem; 
+}
+
